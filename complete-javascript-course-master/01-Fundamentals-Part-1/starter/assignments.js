@@ -36,6 +36,10 @@ let description;
 description = "Portugal is in Europe, and its " + populationPotugal / 1000000 + " million people speak portuguese";
 console.log(description);
 
+description = `Portugal is in Europe, and its ${populationPotugal / 1000000} million people speak portuguese.`;
+
+console.log(description);
+
 // Coding Challenge #1
 /* 
 Mark and John are trying to compare their BMI (Body Mass Index), which is
