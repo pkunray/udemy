@@ -88,3 +88,18 @@ let BMIJohn = massJohn / heightJohn ** 2;
 let markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
+
+// 4
+console.log('9' - '5');
+
+// '617'
+console.log('19' - '13' + '17');
+
+// 23
+console.log('19' - '13' + 17);
+
+// false
+console.log('123' < 57);
+
+// 1143
+console.log(5 + 6 + '4' + 9 - 4 - 2);
