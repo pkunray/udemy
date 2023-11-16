@@ -40,6 +40,14 @@ description = `Portugal is in Europe, and its ${populationPotugal / 1000000} mil
 
 console.log(description);
 
+const populationMillion = population / 1000000;
+
+if (populationMillion > 33){
+    console.log(`China's population is above average`);
+}else{
+    console.log(`China's population is ${33 - populationMillion} million below average`);
+}
+
 // Coding Challenge #1
 /* 
 Mark and John are trying to compare their BMI (Body Mass Index), which is
