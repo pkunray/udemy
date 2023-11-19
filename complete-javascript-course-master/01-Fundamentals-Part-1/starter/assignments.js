@@ -1,52 +1,52 @@
-const country = "China";
-const continent = "Asia";
-let population = 1400000000;
+// const country = "China";
+// const continent = "Asia";
+// let population = 1400000000;
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
-const isIsland = false;
-let language;
+// const isIsland = false;
+// let language;
 
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-// undefined
-console.log(typeof language);
+// console.log(typeof isIsland);
+// console.log(typeof population);
+// console.log(typeof country);
+// // undefined
+// console.log(typeof language);
 
-language = "Chinese";
-console.log(language);
+// language = "Chinese";
+// console.log(language);
 
 // TypeError: Assignment to constant variable.
 // isIsland = false;
 
-console.log(population / 2)
-console.log(++population)
+// console.log(population / 2)
+// console.log(++population)
 
-let populationFinland = 6000000;
-console.log( population > populationFinland);
+// let populationFinland = 6000000;
+// console.log( population > populationFinland);
 
-let populationAverage = 33000000;
-console.log( population < populationAverage);
+// let populationAverage = 33000000;
+// console.log( population < populationAverage);
 
-let populationPotugal = 11000000;
+// let populationPotugal = 11000000;
 
-let description;
-description = "Portugal is in Europe, and its " + populationPotugal / 1000000 + " million people speak portuguese";
-console.log(description);
+// let description;
+// description = "Portugal is in Europe, and its " + populationPotugal / 1000000 + " million people speak portuguese";
+// console.log(description);
 
-description = `Portugal is in Europe, and its ${populationPotugal / 1000000} million people speak portuguese.`;
+// description = `Portugal is in Europe, and its ${populationPotugal / 1000000} million people speak portuguese.`;
 
-console.log(description);
+// console.log(description);
 
-const populationMillion = population / 1000000;
+// const populationMillion = population / 1000000;
 
-if (populationMillion > 33){
-    console.log(`China's population is above average`);
-}else{
-    console.log(`China's population is ${33 - populationMillion} million below average`);
-}
+// if (populationMillion > 33){
+//     console.log(`China's population is above average`);
+// }else{
+//     console.log(`China's population is ${33 - populationMillion} million below average`);
+// }
 
 // Coding Challenge #1
 /* 
@@ -68,38 +68,50 @@ m tall.
 */
 
 
-let massMark = 78;
-let heightMark = 1.69;
+// let massMark = 78;
+// let heightMark = 1.69;
 
-let massJohn = 92;
-let heightJohn = 1.95;
+// let massJohn = 92;
+// let heightJohn = 1.95;
 
-/*
-let massMark = 95;
-let heightMark = 1.88;
+// /*
+// let massMark = 95;
+// let heightMark = 1.88;
 
-let massJohn = 85;
-let heightJohn = 1.76;
-*/
+// let massJohn = 85;
+// let heightJohn = 1.76;
+// */
 
-let BMIMark = massMark / heightMark ** 2;
-let BMIJohn = massJohn / heightJohn ** 2;
+// let BMIMark = massMark / heightMark ** 2;
+// let BMIJohn = massJohn / heightJohn ** 2;
 
-let markHigherBMI = BMIMark > BMIJohn;
+// let markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark, BMIJohn, markHigherBMI);
+// console.log(BMIMark, BMIJohn, markHigherBMI);
 
-// 4
-console.log('9' - '5');
+// // 4
+// console.log('9' - '5');
 
-// '617'
-console.log('19' - '13' + '17');
+// // '617'
+// console.log('19' - '13' + '17');
 
-// 23
-console.log('19' - '13' + 17);
+// // 23
+// console.log('19' - '13' + 17);
 
-// false
-console.log('123' < 57);
+// // false
+// console.log('123' < 57);
 
-// 1143
-console.log(5 + 6 + '4' + 9 - 4 - 2);
+// // 1143
+// console.log(5 + 6 + '4' + 9 - 4 - 2);
+
+const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+
+console.log(typeof numNeighbours);
+
+if (numNeighbours === 1){
+    console.log("Only 1 border!");
+}else if(numNeighbours > 1){
+    console.log("More than 1 border");
+}else{
+    console.log("No borders");
+}
